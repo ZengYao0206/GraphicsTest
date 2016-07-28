@@ -63,7 +63,6 @@
 //运动
 -(void)setMoves:(NSArray *)moves
 {
-   
     _moves = moves;
     
     CGFloat xBiLi = [UIScreen mainScreen].bounds.size.width / (moves.count - 1);
